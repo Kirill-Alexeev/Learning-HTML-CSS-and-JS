@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,39 +9,135 @@
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/style.css">
 </head>
+
 <body>
     <header class="header">
         <div class="header__wrapper">
-            <a href="index.html" class="header__logo-link">
-                <img src="./images/logo.svg" class="header__logo">
+            <a href="index.html" class="logo">
+                <img src="./images/logo.svg" class="logo__image">
             </a>
 
             <nav class="header__navigation">
                 <ul class="header__nav-list">
                     <li class="header__nav-item">
-                        <a href="./index.html" class="header__nav-link">Эксперименты</a>
+                        <a href="./index.html" class="header__nav-link">Главная</a>
                     </li>
                     <li class="header__nav-item">
                         <a href="./calendar.html" class="header__nav-link">Календарь задач</a>
                     </li>
                     <li class="header__nav-item">
-                        <a href="#" class="header__nav-link">Пока пусто</a>
+                        <a href="./games.html" class="header__nav-link">Игры</a>
                     </li>
                 </ul>
             </nav>
+            <button class="header__contact">Связаться</button>
         </div>
     </header>
     <main class="main">
-        <div class="main__wrapper"></div>
-            
+        <div class="main__wrapper">
+            <section class="start">
+                <div class="start__wrapper">
+                    <h1 class="start__headline">Кирилл Алексеев</h1>
+                    <div class="start__title-wrap">
+                        <h2 class="start__title">Web-разработчик</h2>
+                    </div>
+                    <div class="start__description-wrap">
+                        <h2 class="start__description">Разрабатываю современные, функциональные и интерактивные сайты. Готов
+                            помочь вам реализовать ваши идеи в цифровом пространстве. Давайте вместе сделаем ваш проект
+                            успешным!</h2>
+                    </div>
+                </div>
+            </section>
+            <section class="stack">
+                <div class="stack__wrapper">
+                    <h2 class="stack__headline">Используемые технологии</h2>
+                    <div class="stack__details-wrap">
+                        <details class="stack__details">
+                            <summary class="stack__summary">
+                                <img src="./images/html.svg" alt="HTML5 logo" class="stack__image">
+                                HTML
+                            </summary>
+                            <p class="stack__paragraf">HyperText Markup Language - язык гипертекстовой разметки,
+                                используемый для создания структуры веб-страниц</p>
+                        </details>
+                        <details class="stack__details">
+                            <summary class="stack__summary">
+                                <img src="./images/css.svg" alt="CSS3 logo" class="stack__image">
+                                CSS
+                            </summary>
+                            <p class="stack__paragraf">Cascading Style Sheets - таблицы каскадных стилей, применяемые для
+                                описания внешнего вида веб-страниц</p>
+                        </details>
+                        <details class="stack__details">
+                            <summary class="stack__summary">
+                                <img src="./images/js.svg" alt="Java Script logo" class="stack__image">
+                                Java Script
+                            </summary>
+                            <p class="stack__paragraf">Язык программирования, добавляющий интерактивность и динамическое
+                                поведение на веб-страницы</p>
+                        </details>
+                        <details class="stack__details">
+                            <summary class="stack__summary">
+                                <img src="./images/ts.svg" alt="Type Script logo" class="stack__image">
+                                Type Script
+                            </summary>
+                            <p class="stack__paragraf">Надстройка над JavaScript, добавляющая статическую типизацию для
+                                упрощения разработки крупных приложений</p>
+                        </details>
+                        <details class="stack__details">
+                            <summary class="stack__summary">
+                                <img src="./images/react.svg" alt="React logo" class="stack__image">
+                                React.js
+                            </summary>
+                            <p class="stack__paragraf">JavaScript-библиотека для создания пользовательских интерфейсов,
+                                разработанная компанией Facebook</p>
+                        </details>
+                        <details class="stack__details">
+                            <summary class="stack__summary">
+                                <img src="./images/php.svg" alt="PHP logo" class="stack__image">
+                                PHP
+                            </summary>
+                            <p class="stack__paragraf">Серверный язык программирования, широко используемый для создания
+                                динамических веб-сайтов и приложений</p>
+                        </details>
+                        <details class="stack__details">
+                            <summary class="stack__summary">
+                                <img src="./images/python.svg" alt="Python logo" class="stack__image">
+                                Python
+                            </summary>
+                            <p class="stack__paragraf">Высокоуровневый язык программирования, известный своей простотой и
+                                читаемостью, используется в различных областях от веб-разработки до научных вычислений</p>
+                        </details>
+                        <details class="stack__details">
+                            <summary class="stack__summary">
+                                <img src="./images/django.svg" alt="Django logo" class="stack__image">
+                                Django
+                            </summary>
+                            <p class="stack__paragraf">Веб-фреймворк на Python, который облегчает создание сложных,
+                                базирующихся на сервере веб-приложений</p>
+                        </details>
+                    </div>
+                </div>
+            </section>
+            <section class="education">
+                <div class="education__wrapper">
+                    <h2 class="education__headline">Образование</h2>
+                </div>
+            </section>
+            <section class="projects">
+                <div class="projects__wrapper">
+                    <h2 class="projects__headline">Мои проекты</h2>
+                </div>
+            </section>
         </div>
     </main>
     <footer class="footer">
         <div class="footer__wrapper"></div>
-            
+
         </div>
     </footer>
 
     <script src="main.js"></script>
 </body>
+
 </html>

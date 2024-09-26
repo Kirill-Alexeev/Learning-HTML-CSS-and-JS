@@ -1,5 +1,5 @@
 :root {
-    --body-background: #e0cba8;
+    --body-background: #DAE3E4;
     --header-background: #3a435e;
     --body-font-color: #202020;
     --header-link-color: #ffeaea;
@@ -15,6 +15,8 @@
 
 body {
     background-color: var(--body-background);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
 }
 
 a {
@@ -36,7 +38,7 @@ a {
     align-items: center;
 }
 
-.header__logo {
+.logo__image {
     width: 300px;
 }
 
@@ -50,7 +52,88 @@ a {
     font-size: 2rem;
 }
 
-.main__headline {
-    color: var(--body-font-color);
+.header__contact {
+    background-color: var(--buttons-color);
+    color: var(--header-link-color);
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.start__wrapper,
+.stack__wrapper,
+.education__wrapper,
+.projects__wrapper {
+    max-width: 1400px;
+    margin: 50px auto;
+    padding: 0 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.start__headline {
     font-size: 3rem;
+}
+
+.start__title-wrap,
+.start__description-wrap {
+    background-color: var(--body-font-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: var(--buttons-color) solid 3px;
+    border-radius: 20px;
+    width: 400px;
+    height: 300px;
+}
+
+.start__title {
+    color: var(--body-background);
+    font-size: 2.4rem;
+}
+
+.start__description-wrap {
+    width: 600px;
+    height: 400px;
+}
+
+.start__description {
+    color: var(--body-background);
+    font-size: 2rem;
+    padding: 30px;
+}
+
+.stack__details-wrap {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.stack__details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 120px;
+    cursor: pointer;
+}
+
+.stack__summary {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    list-style-type: none;
+    height: 120px;
+}
+
+.stack__image {
+    justify-self: center;
+    height: 100%;
+}
+
+.stack__paragraf {
+    margin-top: 35px;
+    font-size: 1.5rem;
 }
